@@ -1,0 +1,16 @@
+log
+tmp
+vendor
+db
+dump.rdb
+.yardoc
+doc
+realtime/node_modules
+.git
+.vagrant
+data
+.bundle
+.DS_Store
+public/assets
+node_modules
+bin
