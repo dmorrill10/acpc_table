@@ -1,0 +1,25 @@
+exports[`test Face down card works 1`] = `
+<div
+  className="card-face-down">
+  <div
+    className="logo" />
+</div>
+`;
+
+exports[`test Face up card works 1`] = `
+<div
+  className="card-face-up">
+  <div
+    className="top_left_rank">
+    A
+  </div>
+  <div
+    className="suit">
+    ♠
+  </div>
+  <div
+    className="bottom_right_rank">
+    A
+  </div>
+</div>
+`;
