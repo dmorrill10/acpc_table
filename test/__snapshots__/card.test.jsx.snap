@@ -1,4 +1,4 @@
-exports[`test Face down card works 1`] = `
+exports[`test face down card works 1`] = `
 <div
   className="card-face-down">
   <div
@@ -6,7 +6,7 @@ exports[`test Face down card works 1`] = `
 </div>
 `;
 
-exports[`test Face up card works 1`] = `
+exports[`test face up card works 1`] = `
 <div
   className="card-face-up">
   <div

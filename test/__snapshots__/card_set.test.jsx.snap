@@ -1,6 +1,6 @@
-exports[`test Two face-down card hand works 1`] = `
+exports[`test with two face-down cards works 1`] = `
 <ol
-  className="hand">
+  className="card_set">
   <li>
     <div
       className="card-face-down">
@@ -18,9 +18,9 @@ exports[`test Two face-down card hand works 1`] = `
 </ol>
 `;
 
-exports[`test Two face-up card hand works 1`] = `
+exports[`test with two face-up cards works 1`] = `
 <ol
-  className="hand">
+  className="card_set">
   <li>
     <div
       className="card-face-up">

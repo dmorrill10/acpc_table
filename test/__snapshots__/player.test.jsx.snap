@@ -1,0 +1,38 @@
+exports[`test User without dealer, with a hand of two face-down cards, and has no chips, who is not next to act 1`] = `
+<div
+  className="player">
+  <div
+    className="outer_player_information" />
+  <div
+    className="held_player_information">
+    <div
+      className="name">
+      player1
+    </div>
+    <ol
+      className="card_set">
+      <li>
+        <div
+          className="card-face-down">
+          <div
+            className="logo" />
+        </div>
+      </li>
+      <li>
+        <div
+          className="card-face-down">
+          <div
+            className="logo" />
+        </div>
+      </li>
+    </ol>
+    <div
+      className="chip_stack">
+      <div
+        className="amount">
+        this.props.amount
+      </div>
+    </div>
+  </div>
+</div>
+`;

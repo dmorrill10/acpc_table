@@ -1,14 +1,14 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-const Hand = require('../dist/hand.js');
+const CardSet = require('../dist/card_set.js');
 
-test('Two face-down card hand works', () => {
+test('with two face-down cards works', () => {
   const cards = [{}, {}];
-  const patient = <Hand cards={cards}/>;
+  const patient = <CardSet cards={cards}/>;
   const tree = renderer.create(patient).toJSON();
   expect(tree).toMatchSnapshot();
 });
-test('Two face-up card hand works', () => {
+test('with two face-up cards works', () => {
   const cards = [
     {
       rank: '2',
@@ -18,7 +18,7 @@ test('Two face-up card hand works', () => {
       suit: '&diamonds;'
     }
   ];
-  const patient = <Hand cards={cards}/>;
+  const patient = <CardSet cards={cards}/>;
   const tree = renderer.create(patient).toJSON();
   expect(tree).toMatchSnapshot();
 });
