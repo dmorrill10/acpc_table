@@ -1,10 +1,6 @@
 import React from 'react';
 
 class Card extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   faceUpCardProps() {
     return [(
         <div key='top_left_rank' className='top_left_rank'>

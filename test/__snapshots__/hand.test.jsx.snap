@@ -1,0 +1,59 @@
+exports[`test Two face-down card hand works 1`] = `
+<ol
+  className="hand">
+  <li>
+    <div
+      className="card-face-down">
+      <div
+        className="logo" />
+    </div>
+  </li>
+  <li>
+    <div
+      className="card-face-down">
+      <div
+        className="logo" />
+    </div>
+  </li>
+</ol>
+`;
+
+exports[`test Two face-up card hand works 1`] = `
+<ol
+  className="hand">
+  <li>
+    <div
+      className="card-face-up">
+      <div
+        className="top_left_rank">
+        2
+      </div>
+      <div
+        className="suit">
+        &hearts;
+      </div>
+      <div
+        className="bottom_right_rank">
+        2
+      </div>
+    </div>
+  </li>
+  <li>
+    <div
+      className="card-face-up">
+      <div
+        className="top_left_rank">
+        3
+      </div>
+      <div
+        className="suit">
+        &diamonds;
+      </div>
+      <div
+        className="bottom_right_rank">
+        3
+      </div>
+    </div>
+  </li>
+</ol>
+`;
