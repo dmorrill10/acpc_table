@@ -1,0 +1,9 @@
+exports[`test Works 1`] = `
+<div
+  className="chip_stack">
+  <div
+    className="amount">
+    this.props.amount
+  </div>
+</div>
+`;
