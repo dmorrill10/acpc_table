@@ -6,33 +6,45 @@ class Player extends React.Component {
   heldPlayerInformation() {
     const l = [(
         <div key='name' className='name'>{this.props.name}</div>
-      ), (<CardSet key='card_set' cards={this.props['hole-cards']}/>), (<ChipStack key='chip_stack' amount={this.props['chip-stack-amount']}/>)];
+      ), (<CardSet key='card_set' cards={this.props['hole-cards']}/>), (
+        <div key='player_stack' className='player_stack'>
+          <ChipStack key='chip_stack' amount={this.props['chip-stack-amount']}/>
+        </div>
+      )];
     return (
-      <div key='held_player_information' className='held_player_information'>
+      <li key='held_player_information' className='held_player_information'>
         {l}
-      </div>
+      </li>
     );
   }
   outerPlayerInformation() {
-    const l = [
-      this.props.dealer && (
+    let l = []
+    if (this.props.dealer) {
+      l.push(
         <div key='dealer_button' className='dealer_button'>'Dealer'</div>
-      ),
-      this.props.winnings && (
-        <div key='stack_taken_from_pot' className='stack_taken_from_pot'>
+      );
+    }
+    if (this.props.winnings && this.props.winnings > 0) {
+      l.push((
+        <div key='winnings' className='winnings'>
           <ChipStack amount={this.props.winnings}/>
         </div>
-      ),
-      this.props.chip_contributions && (
-        <div key='stack_added_to_pot' className='stack_added_to_pot'>
-          <ChipStack amount={this.props.chip_contributions}/>
+      ))
+    } else if (this.props.contribution && this.props.contribution > 0) {
+      l.push(
+        <div key='contribution' className='contribution'>
+          <ChipStack amount={this.props.contribution}/>
         </div>
       )
-    ];
+    } else {
+      l.push(
+        <div key='chip-stack-placeholder' className='chip-stack-placeholder'></div>
+      );
+    }
     return (
-      <div key='outer_player_information' className='outer_player_information'>
+      <li key='outer_player_information' className='outer_player_information'>
         {l}
-      </div>
+      </li>
     );
   }
   playerContents() {
@@ -40,10 +52,10 @@ class Player extends React.Component {
   }
   render() {
     let c = 'player';
-    if (this.props.active) {
-      c += ' active';
+    if (this.props.acting) {
+      c += ' acting';
     }
-    return <div className={c}>{this.playerContents()}</div>;
+    return <ol className={c}>{this.playerContents()}</ol>;
   }
 }
 class User extends Player {

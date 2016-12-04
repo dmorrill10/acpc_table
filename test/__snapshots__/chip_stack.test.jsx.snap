@@ -1,9 +1,9 @@
-exports[`test works 1`] = `
+exports[`ChipStack shows up for amounts greater than zero 1`] = `
 <div
   className="chip_stack">
   <div
     className="amount">
-    this.props.amount
+    9001
   </div>
 </div>
 `;

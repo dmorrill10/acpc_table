@@ -1,9 +1,20 @@
-exports[`test User without dealer, with a hand of two face-down cards, and has no chips, who is not next to act 1`] = `
-<div
+exports[`User not next to act without the dealer button with a hand of two face-down cards receiving no chips betting chips holding chips works 1`] = `
+<ol
   className="player">
-  <div
-    className="outer_player_information" />
-  <div
+  <li
+    className="outer_player_information">
+    <div
+      className="contribution">
+      <div
+        className="chip_stack">
+        <div
+          className="amount">
+          100
+        </div>
+      </div>
+    </div>
+  </li>
+  <li
     className="held_player_information">
     <div
       className="name">
@@ -27,12 +38,142 @@ exports[`test User without dealer, with a hand of two face-down cards, and has n
       </li>
     </ol>
     <div
-      className="chip_stack">
+      className="player_stack">
       <div
-        className="amount">
-        this.props.amount
+        className="chip_stack">
+        <div
+          className="amount">
+          9001
+        </div>
       </div>
     </div>
-  </div>
-</div>
+  </li>
+</ol>
+`;
+
+exports[`User not next to act without the dealer button with a hand of two face-down cards receiving no chips betting chips holding no chips works 1`] = `
+<ol
+  className="player">
+  <li
+    className="outer_player_information">
+    <div
+      className="contribution">
+      <div
+        className="chip_stack">
+        <div
+          className="amount">
+          100
+        </div>
+      </div>
+    </div>
+  </li>
+  <li
+    className="held_player_information">
+    <div
+      className="name">
+      player1
+    </div>
+    <ol
+      className="card_set">
+      <li>
+        <div
+          className="card-face-down">
+          <div
+            className="logo" />
+        </div>
+      </li>
+      <li>
+        <div
+          className="card-face-down">
+          <div
+            className="logo" />
+        </div>
+      </li>
+    </ol>
+    <div
+      className="player_stack" />
+  </li>
+</ol>
+`;
+
+exports[`User not next to act without the dealer button with a hand of two face-down cards receiving no chips betting no chips holding chips works 1`] = `
+<ol
+  className="player">
+  <li
+    className="outer_player_information">
+    <div
+      className="chip-stack-placeholder" />
+  </li>
+  <li
+    className="held_player_information">
+    <div
+      className="name">
+      player1
+    </div>
+    <ol
+      className="card_set">
+      <li>
+        <div
+          className="card-face-down">
+          <div
+            className="logo" />
+        </div>
+      </li>
+      <li>
+        <div
+          className="card-face-down">
+          <div
+            className="logo" />
+        </div>
+      </li>
+    </ol>
+    <div
+      className="player_stack">
+      <div
+        className="chip_stack">
+        <div
+          className="amount">
+          9001
+        </div>
+      </div>
+    </div>
+  </li>
+</ol>
+`;
+
+exports[`User not next to act without the dealer button with a hand of two face-down cards receiving no chips betting no chips holding no chips works 1`] = `
+<ol
+  className="player">
+  <li
+    className="outer_player_information">
+    <div
+      className="chip-stack-placeholder" />
+  </li>
+  <li
+    className="held_player_information">
+    <div
+      className="name">
+      player1
+    </div>
+    <ol
+      className="card_set">
+      <li>
+        <div
+          className="card-face-down">
+          <div
+            className="logo" />
+        </div>
+      </li>
+      <li>
+        <div
+          className="card-face-down">
+          <div
+            className="logo" />
+        </div>
+      </li>
+    </ol>
+    <div
+      className="player_stack" />
+  </li>
+</ol>
 `;

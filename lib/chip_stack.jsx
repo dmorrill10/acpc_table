@@ -2,11 +2,15 @@ import React from 'react';
 
 class ChipStack extends React.Component {
   render() {
-    return (
-      <div className='chip_stack'>
-        <div className='amount'>this.props.amount</div>
-      </div>
-    );
+    if (this.props.amount && this.props.amount > 0) {
+      return (
+        <div className='chip_stack'>
+          <div className='amount'>{this.props.amount}</div>
+        </div>
+      );
+    } else {
+      return null;
+    }
   }
 }
 module.exports = ChipStack;
