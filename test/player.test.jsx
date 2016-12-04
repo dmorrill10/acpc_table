@@ -49,6 +49,10 @@ describe('User', () => {
 
                 expect(wrapper.find('.name').text()).toEqual('player1');
                 expect(wrapper.find('.player').hasClass('acting')).toEqual(false);
+
+                const heldPlayerInfo = wrapper.find('.player .held_player_information');
+                expect(heldPlayerInfo.find('ChipStack').first().prop('amount')).toEqual(9001);
+
                 expect(renderer.create(patient).toJSON()).toMatchSnapshot();
               });
             });
@@ -70,6 +74,10 @@ describe('User', () => {
 
                 expect(wrapper.find('.name').text()).toEqual('player1');
                 expect(wrapper.find('.player').hasClass('acting')).toEqual(false);
+
+                const outerPlayerInfo = wrapper.find('.player .outer_player_information');
+                expect(outerPlayerInfo.find('ChipStack').first().prop('amount')).toEqual(100);
+
                 expect(renderer.create(patient).toJSON()).toMatchSnapshot();
               });
             });
@@ -88,6 +96,13 @@ describe('User', () => {
 
                 expect(wrapper.find('.name').text()).toEqual('player1');
                 expect(wrapper.find('.player').hasClass('acting')).toEqual(false);
+
+                const heldPlayerInfo = wrapper.find('.player .held_player_information');
+                expect(heldPlayerInfo.find('ChipStack').first().prop('amount')).toEqual(9001);
+
+                const outerPlayerInfo = wrapper.find('.player .outer_player_information');
+                expect(outerPlayerInfo.find('ChipStack').first().prop('amount')).toEqual(100);
+
                 expect(renderer.create(patient).toJSON()).toMatchSnapshot();
               });
             });
