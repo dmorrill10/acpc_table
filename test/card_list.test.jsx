@@ -1,10 +1,16 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-const CardSet = require('../dist/card_set.js');
+const {CardList, BoardCards, PrivateCards} = require('../dist/card_list.js');
 
+test('with no cards works', () => {
+  const cards = [];
+  const patient = <CardList cards={cards}/>;
+  const tree = renderer.create(patient).toJSON();
+  expect(tree).toMatchSnapshot();
+});
 test('with two face-down cards works', () => {
   const cards = [{}, {}];
-  const patient = <CardSet cards={cards}/>;
+  const patient = <CardList cards={cards}/>;
   const tree = renderer.create(patient).toJSON();
   expect(tree).toMatchSnapshot();
 });
@@ -18,7 +24,7 @@ test('with two face-up cards works', () => {
       suit: '&diamonds;'
     }
   ];
-  const patient = <CardSet cards={cards}/>;
+  const patient = <CardList cards={cards}/>;
   const tree = renderer.create(patient).toJSON();
   expect(tree).toMatchSnapshot();
 });

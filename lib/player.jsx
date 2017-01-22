@@ -1,12 +1,12 @@
 import React from 'react';
-import CardSet from './card_set';
+import {CardList, BoardCards, PrivateCards} from './card_list';
 import ChipStack from './chip_stack';
 
 class Player extends React.Component {
   heldPlayerInformation() {
     const l = [(
         <div key='name' className='name'>{this.props.name}</div>
-      ), (<CardSet key='card_set' cards={this.props['hole-cards']}/>), (
+      ), (<CardList key='card-list' cards={this.props['hole-cards']}/>), (
         <div key='player_stack' className='player_stack'>
           <ChipStack key='chip_stack' amount={this.props['chip-stack-amount']}/>
         </div>

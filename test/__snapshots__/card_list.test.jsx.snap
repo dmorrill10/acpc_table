@@ -1,6 +1,11 @@
+exports[`test with no cards works 1`] = `
+<ol
+  className="card-list" />
+`;
+
 exports[`test with two face-down cards works 1`] = `
 <ol
-  className="card_set">
+  className="card-list">
   <li>
     <div
       className="card-face-down">
@@ -20,12 +25,12 @@ exports[`test with two face-down cards works 1`] = `
 
 exports[`test with two face-up cards works 1`] = `
 <ol
-  className="card_set">
+  className="card-list">
   <li>
     <div
       className="card-face-up">
       <div
-        className="top_left_rank">
+        className="top-left-rank">
         2
       </div>
       <div
@@ -33,7 +38,7 @@ exports[`test with two face-up cards works 1`] = `
         &hearts;
       </div>
       <div
-        className="bottom_right_rank">
+        className="bottom-right-rank">
         2
       </div>
     </div>
@@ -42,7 +47,7 @@ exports[`test with two face-up cards works 1`] = `
     <div
       className="card-face-up">
       <div
-        className="top_left_rank">
+        className="top-left-rank">
         3
       </div>
       <div
@@ -50,7 +55,7 @@ exports[`test with two face-up cards works 1`] = `
         &diamonds;
       </div>
       <div
-        className="bottom_right_rank">
+        className="bottom-right-rank">
         3
       </div>
     </div>

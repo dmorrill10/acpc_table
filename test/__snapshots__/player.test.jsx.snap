@@ -6,7 +6,7 @@ exports[`User not next to act without the dealer button with a hand of two face-
     <div
       className="contribution">
       <div
-        className="chip_stack">
+        className="chip-stack">
         <div
           className="amount">
           100
@@ -21,7 +21,7 @@ exports[`User not next to act without the dealer button with a hand of two face-
       player1
     </div>
     <ol
-      className="card_set">
+      className="card-list">
       <li>
         <div
           className="card-face-down">
@@ -40,7 +40,7 @@ exports[`User not next to act without the dealer button with a hand of two face-
     <div
       className="player_stack">
       <div
-        className="chip_stack">
+        className="chip-stack">
         <div
           className="amount">
           9001
@@ -59,7 +59,7 @@ exports[`User not next to act without the dealer button with a hand of two face-
     <div
       className="contribution">
       <div
-        className="chip_stack">
+        className="chip-stack">
         <div
           className="amount">
           100
@@ -74,7 +74,7 @@ exports[`User not next to act without the dealer button with a hand of two face-
       player1
     </div>
     <ol
-      className="card_set">
+      className="card-list">
       <li>
         <div
           className="card-face-down">
@@ -111,7 +111,7 @@ exports[`User not next to act without the dealer button with a hand of two face-
       player1
     </div>
     <ol
-      className="card_set">
+      className="card-list">
       <li>
         <div
           className="card-face-down">
@@ -130,7 +130,7 @@ exports[`User not next to act without the dealer button with a hand of two face-
     <div
       className="player_stack">
       <div
-        className="chip_stack">
+        className="chip-stack">
         <div
           className="amount">
           9001
@@ -156,7 +156,7 @@ exports[`User not next to act without the dealer button with a hand of two face-
       player1
     </div>
     <ol
-      className="card_set">
+      className="card-list">
       <li>
         <div
           className="card-face-down">

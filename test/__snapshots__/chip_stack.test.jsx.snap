@@ -1,6 +1,6 @@
 exports[`ChipStack shows up for amounts greater than zero 1`] = `
 <div
-  className="chip_stack">
+  className="chip-stack">
   <div
     className="amount">
     9001

@@ -10,7 +10,7 @@ exports[`test face up card works 1`] = `
 <div
   className="card-face-up">
   <div
-    className="top_left_rank">
+    className="top-left-rank">
     A
   </div>
   <div
@@ -18,7 +18,7 @@ exports[`test face up card works 1`] = `
     ♠
   </div>
   <div
-    className="bottom_right_rank">
+    className="bottom-right-rank">
     A
   </div>
 </div>

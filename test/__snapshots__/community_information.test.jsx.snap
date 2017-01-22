@@ -1,0 +1,115 @@
+exports[`CommunityInformation with five board cards works 1`] = `
+<div
+  className="community-information">
+  <ol
+    className="board-cards">
+    <li>
+      <div
+        className="card-face-up">
+        <div
+          className="top-left-rank">
+          2
+        </div>
+        <div
+          className="suit">
+          &hearts;
+        </div>
+        <div
+          className="bottom-right-rank">
+          2
+        </div>
+      </div>
+    </li>
+    <li>
+      <div
+        className="card-face-up">
+        <div
+          className="top-left-rank">
+          3
+        </div>
+        <div
+          className="suit">
+          &diamonds;
+        </div>
+        <div
+          className="bottom-right-rank">
+          3
+        </div>
+      </div>
+    </li>
+    <li>
+      <div
+        className="card-face-up">
+        <div
+          className="top-left-rank">
+          10
+        </div>
+        <div
+          className="suit">
+          &spades;
+        </div>
+        <div
+          className="bottom-right-rank">
+          10
+        </div>
+      </div>
+    </li>
+    <li>
+      <div
+        className="card-face-up">
+        <div
+          className="top-left-rank">
+          A
+        </div>
+        <div
+          className="suit">
+          &clubs;
+        </div>
+        <div
+          className="bottom-right-rank">
+          A
+        </div>
+      </div>
+    </li>
+    <li>
+      <div
+        className="card-face-up">
+        <div
+          className="top-left-rank">
+          K
+        </div>
+        <div
+          className="suit">
+          &diamonds;
+        </div>
+        <div
+          className="bottom-right-rank">
+          K
+        </div>
+      </div>
+    </li>
+  </ol>
+  <div
+    className="chip-stack">
+    <div
+      className="amount">
+      100
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CommunityInformation without board cards works 1`] = `
+<div
+  className="community-information">
+  <ol
+    className="board-cards" />
+  <div
+    className="chip-stack">
+    <div
+      className="amount">
+      100
+    </div>
+  </div>
+</div>
+`;

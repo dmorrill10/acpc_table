@@ -3,7 +3,7 @@ import React from 'react';
 class Card extends React.Component {
   faceUpCardProps() {
     return [(
-        <div key='top_left_rank' className='top_left_rank'>
+        <div key='top-left-rank' className='top-left-rank'>
           {this.props.rank}
         </div>
       ), (
@@ -11,7 +11,7 @@ class Card extends React.Component {
           {this.props.suit}
         </div>
       ), (
-        <div key='bottom_right_rank' className='bottom_right_rank'>
+        <div key='bottom-right-rank' className='bottom-right-rank'>
           {this.props.rank}
         </div>
       )];

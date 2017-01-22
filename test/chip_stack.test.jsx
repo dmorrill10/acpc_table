@@ -8,7 +8,7 @@ describe('ChipStack', () => {
     const patient = <ChipStack amount={9001}/>;
     const wrapper = shallow(patient);
     expect(wrapper.text()).toEqual('9001');
-    expect(wrapper.hasClass('chip_stack')).toEqual(true);
+    expect(wrapper.hasClass('chip-stack')).toEqual(true);
     expect(renderer.create(patient).toJSON()).toMatchSnapshot();
   });
   it('does not show up for amounts less than 1', () => {
