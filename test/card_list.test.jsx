@@ -18,10 +18,10 @@ test('with two face-up cards works', () => {
   const cards = [
     {
       rank: '2',
-      suit: '&hearts;'
+      suit: 'h'
     }, {
       rank: '3',
-      suit: '&diamonds;'
+      suit: 'd'
     }
   ];
   const patient = <CardList cards={cards}/>;

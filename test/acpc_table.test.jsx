@@ -9,19 +9,19 @@ describe('AcpcTable', () => {
       const boardCards = [
         {
           rank: '2',
-          suit: '&hearts;'
+          suit: 'h'
         }, {
           rank: '3',
-          suit: '&diamonds;'
+          suit: 'd'
         }, {
-          rank: '10',
-          suit: '&spades;'
+          rank: 'T',
+          suit: 's'
         }, {
           rank: 'A',
-          suit: '&clubs;'
+          suit: 'c'
         }, {
           rank: 'K',
-          suit: '&diamonds;'
+          suit: 'd'
         }
       ];
       const user = {

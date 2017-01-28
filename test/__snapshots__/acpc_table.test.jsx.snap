@@ -86,7 +86,7 @@ exports[`AcpcTable with 2-player Texas hold'em table on the river works 1`] = `
           </div>
           <div
             className="suit">
-            &diamonds;
+            &diams;
           </div>
           <div
             className="bottom-right-rank">
@@ -137,7 +137,7 @@ exports[`AcpcTable with 2-player Texas hold'em table on the river works 1`] = `
           </div>
           <div
             className="suit">
-            &diamonds;
+            &diams;
           </div>
           <div
             className="bottom-right-rank">

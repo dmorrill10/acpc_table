@@ -16,19 +16,19 @@ describe('CommunityInformation', () => {
       const cards = [
         {
           rank: '2',
-          suit: '&hearts;'
+          suit: 'h'
         }, {
           rank: '3',
-          suit: '&diamonds;'
+          suit: 'd'
         }, {
           rank: '10',
-          suit: '&spades;'
+          suit: 's'
         }, {
           rank: 'A',
-          suit: '&clubs;'
+          suit: 'c'
         }, {
           rank: 'K',
-          suit: '&diamonds;'
+          suit: 'd'
         }
       ];
       const patient = <CommunityInformation cards={cards} potChips={100}/>;

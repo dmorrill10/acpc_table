@@ -8,7 +8,7 @@ test('face down card works', () => {
   expect(tree).toMatchSnapshot();
 });
 test('face up card works', () => {
-  const patient = <Card rank='A' suit='&spades;'/>;
+  const patient = <Card rank='A' suit='s'/>;
   const tree = renderer.create(patient).toJSON();
   expect(tree).toMatchSnapshot();
 });

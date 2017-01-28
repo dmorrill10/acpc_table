@@ -52,7 +52,7 @@ exports[`test with two face-up cards works 1`] = `
       </div>
       <div
         className="suit">
-        &diamonds;
+        &diams;
       </div>
       <div
         className="bottom-right-rank">

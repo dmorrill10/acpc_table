@@ -29,7 +29,7 @@ exports[`CommunityInformation with five board cards works 1`] = `
         </div>
         <div
           className="suit">
-          &diamonds;
+          &diams;
         </div>
         <div
           className="bottom-right-rank">
@@ -80,7 +80,7 @@ exports[`CommunityInformation with five board cards works 1`] = `
         </div>
         <div
           className="suit">
-          &diamonds;
+          &diams;
         </div>
         <div
           className="bottom-right-rank">
