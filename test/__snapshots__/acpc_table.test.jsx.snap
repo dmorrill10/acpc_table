@@ -69,7 +69,7 @@ exports[`AcpcTable with 2-player Texas hold'em table on the river works 1`] = `
           </div>
           <div
             className="suit">
-            &hearts;
+            ♥
           </div>
           <div
             className="bottom-right-rank">
@@ -86,7 +86,7 @@ exports[`AcpcTable with 2-player Texas hold'em table on the river works 1`] = `
           </div>
           <div
             className="suit">
-            &diams;
+            ♦
           </div>
           <div
             className="bottom-right-rank">
@@ -103,7 +103,7 @@ exports[`AcpcTable with 2-player Texas hold'em table on the river works 1`] = `
           </div>
           <div
             className="suit">
-            &spades;
+            ♠
           </div>
           <div
             className="bottom-right-rank">
@@ -120,7 +120,7 @@ exports[`AcpcTable with 2-player Texas hold'em table on the river works 1`] = `
           </div>
           <div
             className="suit">
-            &clubs;
+            ♣
           </div>
           <div
             className="bottom-right-rank">
@@ -137,7 +137,7 @@ exports[`AcpcTable with 2-player Texas hold'em table on the river works 1`] = `
           </div>
           <div
             className="suit">
-            &diams;
+            ♦
           </div>
           <div
             className="bottom-right-rank">

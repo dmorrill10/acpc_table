@@ -48,9 +48,9 @@ class Card extends React.Component {
   }
 }
 Card.HTML_SUITS = {
-  'c': '&clubs;',
-  'd': '&diams;',
-  'h': '&hearts;',
-  's': '&spades;'
+  'c': '\u2663',
+  'd': '\u2666',
+  'h': '\u2665',
+  's': '\u2660'
 };
 module.exports = Card;

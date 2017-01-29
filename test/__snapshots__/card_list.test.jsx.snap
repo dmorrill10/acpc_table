@@ -35,7 +35,7 @@ exports[`test with two face-up cards works 1`] = `
       </div>
       <div
         className="suit">
-        &hearts;
+        ♥
       </div>
       <div
         className="bottom-right-rank">
@@ -52,7 +52,7 @@ exports[`test with two face-up cards works 1`] = `
       </div>
       <div
         className="suit">
-        &diams;
+        ♦
       </div>
       <div
         className="bottom-right-rank">

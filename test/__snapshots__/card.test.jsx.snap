@@ -15,7 +15,7 @@ exports[`test face up card works 1`] = `
   </div>
   <div
     className="suit">
-    &spades;
+    ♠
   </div>
   <div
     className="bottom-right-rank">
