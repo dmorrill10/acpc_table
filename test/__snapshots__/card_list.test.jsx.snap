@@ -8,14 +8,14 @@ exports[`test with two face-down cards works 1`] = `
   className="card-list">
   <li>
     <div
-      className="card-face-down">
+      className="card">
       <div
         className="logo" />
     </div>
   </li>
   <li>
     <div
-      className="card-face-down">
+      className="card">
       <div
         className="logo" />
     </div>
@@ -28,7 +28,7 @@ exports[`test with two face-up cards works 1`] = `
   className="card-list">
   <li>
     <div
-      className="card-face-up">
+      className="card-face-up-h">
       <div
         className="top-left-rank">
         2
@@ -45,7 +45,7 @@ exports[`test with two face-up cards works 1`] = `
   </li>
   <li>
     <div
-      className="card-face-up">
+      className="card-face-up-d">
       <div
         className="top-left-rank">
         3

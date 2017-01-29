@@ -16,14 +16,14 @@ exports[`AcpcTable with 2-player Texas hold'em table on the river works 1`] = `
             className="card-list">
             <li>
               <div
-                className="card-face-down">
+                className="card">
                 <div
                   className="logo" />
               </div>
             </li>
             <li>
               <div
-                className="card-face-down">
+                className="card">
                 <div
                   className="logo" />
               </div>
@@ -62,7 +62,7 @@ exports[`AcpcTable with 2-player Texas hold'em table on the river works 1`] = `
       className="board-cards">
       <li>
         <div
-          className="card-face-up">
+          className="card-face-up-h">
           <div
             className="top-left-rank">
             2
@@ -79,7 +79,7 @@ exports[`AcpcTable with 2-player Texas hold'em table on the river works 1`] = `
       </li>
       <li>
         <div
-          className="card-face-up">
+          className="card-face-up-d">
           <div
             className="top-left-rank">
             3
@@ -96,7 +96,7 @@ exports[`AcpcTable with 2-player Texas hold'em table on the river works 1`] = `
       </li>
       <li>
         <div
-          className="card-face-up">
+          className="card-face-up-s">
           <div
             className="top-left-rank">
             10
@@ -113,7 +113,7 @@ exports[`AcpcTable with 2-player Texas hold'em table on the river works 1`] = `
       </li>
       <li>
         <div
-          className="card-face-up">
+          className="card-face-up-c">
           <div
             className="top-left-rank">
             A
@@ -130,7 +130,7 @@ exports[`AcpcTable with 2-player Texas hold'em table on the river works 1`] = `
       </li>
       <li>
         <div
-          className="card-face-up">
+          className="card-face-up-d">
           <div
             className="top-left-rank">
             K
@@ -183,14 +183,14 @@ exports[`AcpcTable with 2-player Texas hold'em table on the river works 1`] = `
         className="card-list">
         <li>
           <div
-            className="card-face-down">
+            className="card">
             <div
               className="logo" />
           </div>
         </li>
         <li>
           <div
-            className="card-face-down">
+            className="card">
             <div
               className="logo" />
           </div>

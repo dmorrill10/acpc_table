@@ -38,10 +38,10 @@ class Card extends React.Component {
     let classNames = undefined;
     let cardProps = undefined;
     if (this.props.rank && this.props.suit) {
-      classNames = 'card-face-up';
+      classNames = 'card-face-up-' + this.props.suit;
       cardProps = this.faceUpCardProps();
     } else {
-      classNames = 'card-face-down';
+      classNames = 'card';
       cardProps = <div className='logo'></div>;
     }
     return <div className={classNames}>{cardProps}</div>;

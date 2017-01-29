@@ -5,7 +5,7 @@ exports[`CommunityInformation with five board cards works 1`] = `
     className="board-cards">
     <li>
       <div
-        className="card-face-up">
+        className="card-face-up-h">
         <div
           className="top-left-rank">
           2
@@ -22,7 +22,7 @@ exports[`CommunityInformation with five board cards works 1`] = `
     </li>
     <li>
       <div
-        className="card-face-up">
+        className="card-face-up-d">
         <div
           className="top-left-rank">
           3
@@ -39,7 +39,7 @@ exports[`CommunityInformation with five board cards works 1`] = `
     </li>
     <li>
       <div
-        className="card-face-up">
+        className="card-face-up-s">
         <div
           className="top-left-rank">
           10
@@ -56,7 +56,7 @@ exports[`CommunityInformation with five board cards works 1`] = `
     </li>
     <li>
       <div
-        className="card-face-up">
+        className="card-face-up-c">
         <div
           className="top-left-rank">
           A
@@ -73,7 +73,7 @@ exports[`CommunityInformation with five board cards works 1`] = `
     </li>
     <li>
       <div
-        className="card-face-up">
+        className="card-face-up-d">
         <div
           className="top-left-rank">
           K

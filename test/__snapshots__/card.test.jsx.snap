@@ -1,6 +1,6 @@
 exports[`test face down card works 1`] = `
 <div
-  className="card-face-down">
+  className="card">
   <div
     className="logo" />
 </div>
@@ -8,7 +8,7 @@ exports[`test face down card works 1`] = `
 
 exports[`test face up card works 1`] = `
 <div
-  className="card-face-up">
+  className="card-face-up-s">
   <div
     className="top-left-rank">
     A
