@@ -1,6 +1,6 @@
 {
   "name": "acpc_table",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": "./dist/acpc_table.js",
   "author": "Dustin Morrill",
   "license": "MIT",
