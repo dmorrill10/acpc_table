@@ -1,6 +1,13 @@
 exports[`CommunityInformation with five board cards works 1`] = `
 <div
   className="community-information">
+  <div
+    className="chip-stack">
+    <div
+      className="amount">
+      100
+    </div>
+  </div>
   <ol
     className="board-cards">
     <li>
@@ -89,21 +96,12 @@ exports[`CommunityInformation with five board cards works 1`] = `
       </div>
     </li>
   </ol>
-  <div
-    className="chip-stack">
-    <div
-      className="amount">
-      100
-    </div>
-  </div>
 </div>
 `;
 
 exports[`CommunityInformation without board cards works 1`] = `
 <div
   className="community-information">
-  <ol
-    className="board-cards" />
   <div
     className="chip-stack">
     <div
@@ -111,5 +109,7 @@ exports[`CommunityInformation without board cards works 1`] = `
       100
     </div>
   </div>
+  <ol
+    className="board-cards" />
 </div>
 `;

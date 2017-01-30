@@ -10,7 +10,7 @@ class CommunityInformation extends React.Component {
     return <ChipStack key='pot-chips' amount={this.props.potChips}/>;
   }
   render() {
-    let l = [this.boardCards(), this.potChips()]
+    let l = [this.potChips(), this.boardCards()]
     return <div className='community-information'>{l}</div>;
   }
 }
