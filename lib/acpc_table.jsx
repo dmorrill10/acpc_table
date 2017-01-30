@@ -25,7 +25,7 @@ class AcpcTable extends React.Component {
     for (let i = 0; i < this.props.opponents.length; ++i) {
       let opponent = this.props.opponents[i];
       o.push(
-        <li key={i}><Opponent
+        <li key={i} className='opponent'><Opponent
           name={opponent.name}
           hole-cards={opponent.holeCards}
           dealer={opponent.dealer}

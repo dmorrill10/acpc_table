@@ -3,7 +3,8 @@ exports[`AcpcTable with 2-player Texas hold'em table on the river works 1`] = `
   className="acpc-table">
   <ol
     className="opponents">
-    <li>
+    <li
+      className="opponent">
       <ol
         className="player">
         <li
