@@ -21,7 +21,7 @@ class Player extends React.Component {
     let l = []
     if (this.props.dealer) {
       l.push(
-        <div key='dealer_button' className='dealer_button'>'Dealer'</div>
+        <div key='dealer_button' className='dealer_button'>Dealer</div>
       );
     }
     if (this.props.winnings && this.props.winnings > 0) {
