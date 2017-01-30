@@ -155,7 +155,7 @@ exports[`AcpcTable with 2-player Texas hold'em table on the river works 1`] = `
     </div>
   </div>
   <ol
-    className="player acting">
+    className="player acting user">
     <li
       className="outer_player_information">
       <div

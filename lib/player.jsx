@@ -50,15 +50,21 @@ class Player extends React.Component {
   playerContents() {
     return [];
   }
-  render() {
+  classes() {
     let c = 'player';
     if (this.props.acting) {
       c += ' acting';
     }
-    return <ol className={c}>{this.playerContents()}</ol>;
+    return c;
+  }
+  render() {
+    return <ol className={this.classes()}>{this.playerContents()}</ol>;
   }
 }
 class User extends Player {
+  classes() {
+    return super.classes() + ' user';
+  }
   playerContents() {
     return [this.outerPlayerInformation(), this.heldPlayerInformation()];
   }
