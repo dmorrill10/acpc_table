@@ -177,3 +177,383 @@ exports[`User not next to act without the dealer button with a hand of two face-
   </li>
 </ol>
 `;
+
+exports[`User not next to act without the dealer button with an explicitly folded hand and two face-up cards receiving no chips betting chips holding chips works 1`] = `
+<ol
+  className="player has-folded user">
+  <li
+    className="outer_player_information">
+    <div
+      className="contribution">
+      <div
+        className="chip-stack">
+        <div
+          className="amount">
+          100
+        </div>
+      </div>
+    </div>
+  </li>
+  <li
+    className="held_player_information">
+    <div
+      className="name">
+      player1
+    </div>
+    <ol
+      className="card-list">
+      <li>
+        <div
+          className="card-face-up-c">
+          <div
+            className="top-left-rank">
+            A
+          </div>
+          <div
+            className="suit">
+            ♣
+          </div>
+          <div
+            className="bottom-right-rank">
+            A
+          </div>
+        </div>
+      </li>
+      <li>
+        <div
+          className="card-face-up-d">
+          <div
+            className="top-left-rank">
+            K
+          </div>
+          <div
+            className="suit">
+            ♦
+          </div>
+          <div
+            className="bottom-right-rank">
+            K
+          </div>
+        </div>
+      </li>
+    </ol>
+    <div
+      className="player_stack">
+      <div
+        className="chip-stack">
+        <div
+          className="amount">
+          9001
+        </div>
+      </div>
+    </div>
+  </li>
+</ol>
+`;
+
+exports[`User not next to act without the dealer button with an explicitly folded hand and two face-up cards receiving no chips betting chips holding no chips works 1`] = `
+<ol
+  className="player has-folded user">
+  <li
+    className="outer_player_information">
+    <div
+      className="contribution">
+      <div
+        className="chip-stack">
+        <div
+          className="amount">
+          100
+        </div>
+      </div>
+    </div>
+  </li>
+  <li
+    className="held_player_information">
+    <div
+      className="name">
+      player1
+    </div>
+    <ol
+      className="card-list">
+      <li>
+        <div
+          className="card-face-up-c">
+          <div
+            className="top-left-rank">
+            A
+          </div>
+          <div
+            className="suit">
+            ♣
+          </div>
+          <div
+            className="bottom-right-rank">
+            A
+          </div>
+        </div>
+      </li>
+      <li>
+        <div
+          className="card-face-up-d">
+          <div
+            className="top-left-rank">
+            K
+          </div>
+          <div
+            className="suit">
+            ♦
+          </div>
+          <div
+            className="bottom-right-rank">
+            K
+          </div>
+        </div>
+      </li>
+    </ol>
+    <div
+      className="player_stack" />
+  </li>
+</ol>
+`;
+
+exports[`User not next to act without the dealer button with an explicitly folded hand and two face-up cards receiving no chips betting no chips holding chips works 1`] = `
+<ol
+  className="player has-folded user">
+  <li
+    className="outer_player_information">
+    <div
+      className="chip-stack-placeholder" />
+  </li>
+  <li
+    className="held_player_information">
+    <div
+      className="name">
+      player1
+    </div>
+    <ol
+      className="card-list">
+      <li>
+        <div
+          className="card-face-up-c">
+          <div
+            className="top-left-rank">
+            A
+          </div>
+          <div
+            className="suit">
+            ♣
+          </div>
+          <div
+            className="bottom-right-rank">
+            A
+          </div>
+        </div>
+      </li>
+      <li>
+        <div
+          className="card-face-up-d">
+          <div
+            className="top-left-rank">
+            K
+          </div>
+          <div
+            className="suit">
+            ♦
+          </div>
+          <div
+            className="bottom-right-rank">
+            K
+          </div>
+        </div>
+      </li>
+    </ol>
+    <div
+      className="player_stack">
+      <div
+        className="chip-stack">
+        <div
+          className="amount">
+          9001
+        </div>
+      </div>
+    </div>
+  </li>
+</ol>
+`;
+
+exports[`User not next to act without the dealer button with an explicitly folded hand and two face-up cards receiving no chips betting no chips holding no chips works 1`] = `
+<ol
+  className="player has-folded user">
+  <li
+    className="outer_player_information">
+    <div
+      className="chip-stack-placeholder" />
+  </li>
+  <li
+    className="held_player_information">
+    <div
+      className="name">
+      player1
+    </div>
+    <ol
+      className="card-list">
+      <li>
+        <div
+          className="card-face-up-c">
+          <div
+            className="top-left-rank">
+            A
+          </div>
+          <div
+            className="suit">
+            ♣
+          </div>
+          <div
+            className="bottom-right-rank">
+            A
+          </div>
+        </div>
+      </li>
+      <li>
+        <div
+          className="card-face-up-d">
+          <div
+            className="top-left-rank">
+            K
+          </div>
+          <div
+            className="suit">
+            ♦
+          </div>
+          <div
+            className="bottom-right-rank">
+            K
+          </div>
+        </div>
+      </li>
+    </ol>
+    <div
+      className="player_stack" />
+  </li>
+</ol>
+`;
+
+exports[`User not next to act without the dealer button with an implicitly folded hand receiving no chips betting chips holding chips works 1`] = `
+<ol
+  className="player has-folded user">
+  <li
+    className="outer_player_information">
+    <div
+      className="contribution">
+      <div
+        className="chip-stack">
+        <div
+          className="amount">
+          100
+        </div>
+      </div>
+    </div>
+  </li>
+  <li
+    className="held_player_information">
+    <div
+      className="name">
+      player1
+    </div>
+    <ol
+      className="card-list" />
+    <div
+      className="player_stack">
+      <div
+        className="chip-stack">
+        <div
+          className="amount">
+          9001
+        </div>
+      </div>
+    </div>
+  </li>
+</ol>
+`;
+
+exports[`User not next to act without the dealer button with an implicitly folded hand receiving no chips betting chips holding no chips works 1`] = `
+<ol
+  className="player has-folded user">
+  <li
+    className="outer_player_information">
+    <div
+      className="contribution">
+      <div
+        className="chip-stack">
+        <div
+          className="amount">
+          100
+        </div>
+      </div>
+    </div>
+  </li>
+  <li
+    className="held_player_information">
+    <div
+      className="name">
+      player1
+    </div>
+    <ol
+      className="card-list" />
+    <div
+      className="player_stack" />
+  </li>
+</ol>
+`;
+
+exports[`User not next to act without the dealer button with an implicitly folded hand receiving no chips betting no chips holding chips works 1`] = `
+<ol
+  className="player has-folded user">
+  <li
+    className="outer_player_information">
+    <div
+      className="chip-stack-placeholder" />
+  </li>
+  <li
+    className="held_player_information">
+    <div
+      className="name">
+      player1
+    </div>
+    <ol
+      className="card-list" />
+    <div
+      className="player_stack">
+      <div
+        className="chip-stack">
+        <div
+          className="amount">
+          9001
+        </div>
+      </div>
+    </div>
+  </li>
+</ol>
+`;
+
+exports[`User not next to act without the dealer button with an implicitly folded hand receiving no chips betting no chips holding no chips works 1`] = `
+<ol
+  className="player has-folded user">
+  <li
+    className="outer_player_information">
+    <div
+      className="chip-stack-placeholder" />
+  </li>
+  <li
+    className="held_player_information">
+    <div
+      className="name">
+      player1
+    </div>
+    <ol
+      className="card-list" />
+    <div
+      className="player_stack" />
+  </li>
+</ol>
+`;

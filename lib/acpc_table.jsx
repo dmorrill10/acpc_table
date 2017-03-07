@@ -18,7 +18,8 @@ class AcpcTable extends React.Component {
       acting={this.props.user.acting}
       chip-stack-amount={this.props.user.chipStackAmount}
       winnings={this.props.user.winnings}
-      contribution={this.props.user.contribution}/>);
+      contribution={this.props.user.contribution}
+      has-folded={this.props.user.hasFolded}/>);
   }
   opponents() {
     let o = [];
@@ -32,7 +33,8 @@ class AcpcTable extends React.Component {
           acting={opponent.acting}
           chip-stack-amount={opponent.chipStackAmount}
           winnings={opponent.winnings}
-          contribution={opponent.contribution}/></li>
+          contribution={opponent.contribution}
+          has-folded={opponent.hasFolded}/></li>
       );
     }
     return <ol key='opponents' className='opponents'>{o}</ol>;

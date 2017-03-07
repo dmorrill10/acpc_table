@@ -55,6 +55,9 @@ class Player extends React.Component {
     if (this.props.acting) {
       c += ' acting';
     }
+    if (this.props['has-folded'] || !this.props['hole-cards'] || this.props['hole-cards'].length < 1) {
+      c += ' has-folded';
+    }
     return c;
   }
   render() {
