@@ -7,6 +7,8 @@ exports[`CommunityInformation with five board cards works 1`] = `
       className="amount">
       100
     </div>
+    <div
+      className="image" />
   </div>
   <ol
     className="board-cards">
@@ -108,6 +110,8 @@ exports[`CommunityInformation without board cards works 1`] = `
       className="amount">
       100
     </div>
+    <div
+      className="image" />
   </div>
   <ol
     className="board-cards" />

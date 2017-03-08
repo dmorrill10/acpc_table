@@ -5,5 +5,7 @@ exports[`ChipStack shows up for amounts greater than zero 1`] = `
     className="amount">
     9001
   </div>
+  <div
+    className="image" />
 </div>
 `;

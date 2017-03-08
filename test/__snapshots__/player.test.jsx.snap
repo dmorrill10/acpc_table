@@ -11,6 +11,8 @@ exports[`User not next to act without the dealer button with a hand of two face-
           className="amount">
           100
         </div>
+        <div
+          className="image" />
       </div>
     </div>
   </li>
@@ -45,6 +47,8 @@ exports[`User not next to act without the dealer button with a hand of two face-
           className="amount">
           9001
         </div>
+        <div
+          className="image" />
       </div>
     </div>
   </li>
@@ -64,6 +68,8 @@ exports[`User not next to act without the dealer button with a hand of two face-
           className="amount">
           100
         </div>
+        <div
+          className="image" />
       </div>
     </div>
   </li>
@@ -135,6 +141,8 @@ exports[`User not next to act without the dealer button with a hand of two face-
           className="amount">
           9001
         </div>
+        <div
+          className="image" />
       </div>
     </div>
   </li>
@@ -191,6 +199,8 @@ exports[`User not next to act without the dealer button with an explicitly folde
           className="amount">
           100
         </div>
+        <div
+          className="image" />
       </div>
     </div>
   </li>
@@ -245,6 +255,8 @@ exports[`User not next to act without the dealer button with an explicitly folde
           className="amount">
           9001
         </div>
+        <div
+          className="image" />
       </div>
     </div>
   </li>
@@ -264,6 +276,8 @@ exports[`User not next to act without the dealer button with an explicitly folde
           className="amount">
           100
         </div>
+        <div
+          className="image" />
       </div>
     </div>
   </li>
@@ -375,6 +389,8 @@ exports[`User not next to act without the dealer button with an explicitly folde
           className="amount">
           9001
         </div>
+        <div
+          className="image" />
       </div>
     </div>
   </li>
@@ -451,6 +467,8 @@ exports[`User not next to act without the dealer button with an implicitly folde
           className="amount">
           100
         </div>
+        <div
+          className="image" />
       </div>
     </div>
   </li>
@@ -470,6 +488,8 @@ exports[`User not next to act without the dealer button with an implicitly folde
           className="amount">
           9001
         </div>
+        <div
+          className="image" />
       </div>
     </div>
   </li>
@@ -489,6 +509,8 @@ exports[`User not next to act without the dealer button with an implicitly folde
           className="amount">
           100
         </div>
+        <div
+          className="image" />
       </div>
     </div>
   </li>
@@ -530,6 +552,8 @@ exports[`User not next to act without the dealer button with an implicitly folde
           className="amount">
           9001
         </div>
+        <div
+          className="image" />
       </div>
     </div>
   </li>

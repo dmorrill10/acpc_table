@@ -38,6 +38,8 @@ exports[`AcpcTable with 2-player Texas hold'em table on the river works 1`] = `
                 className="amount">
                 800
               </div>
+              <div
+                className="image" />
             </div>
           </div>
         </li>
@@ -51,6 +53,8 @@ exports[`AcpcTable with 2-player Texas hold'em table on the river works 1`] = `
                 className="amount">
                 600
               </div>
+              <div
+                className="image" />
             </div>
           </div>
         </li>
@@ -65,6 +69,8 @@ exports[`AcpcTable with 2-player Texas hold'em table on the river works 1`] = `
         className="amount">
         1000
       </div>
+      <div
+        className="image" />
     </div>
     <ol
       className="board-cards">
@@ -171,6 +177,8 @@ exports[`AcpcTable with 2-player Texas hold'em table on the river works 1`] = `
             className="amount">
             400
           </div>
+          <div
+            className="image" />
         </div>
       </div>
     </li>
@@ -205,6 +213,8 @@ exports[`AcpcTable with 2-player Texas hold'em table on the river works 1`] = `
             className="amount">
             1000
           </div>
+          <div
+            className="image" />
         </div>
       </div>
     </li>
